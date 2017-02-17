@@ -1,0 +1,19 @@
+.fade-enter {
+  transform:  translate(-100%);
+}
+
+.fade-enter-active {
+  transform:  translate(0%);
+  transition: 1000ms linear all;
+}
+
+.fade-leave { 
+	opacity: 0;
+	transform:  translate(0%);
+}
+
+.fade-leave-active {
+  opacity: 0;
+  transform: translate(100%);
+  transition: 1000ms ease-in all;
+}
